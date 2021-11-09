@@ -183,7 +183,7 @@ knitr::include_graphics(screenshots[47])
 As a second example, 
 -->
 
-As an example we show how to make a change that we **highly recommend**. This is to change the _Save workspace to .RData on exit_ to _Never_ and uncheck the _Restore .RData into workspace at start_. By default, when you exit R saves all the objects you have created into a file called .RData. This is done so that when you restart the session in the same folder, it will load these objects. We find that this causes confusion especially when we share code with colleagues and assume they have this .RData file. To change these options, make your _General_ settings look like this:
+As an example we show how to make a change that we **highly recommend**. This is to change the _Save workspace to .RData on exit_ to _Never_ and uncheck the _Restore .RData into workspace at startup_. By default, when you exit R saves all the objects you have created into a file called .RData. This is done so that when you restart the session in the same folder, it will load these objects. We find that this causes confusion especially when we share code with colleagues and assume they have this .RData file. To change these options, make your _General_ settings look like this:
 
 ```{r, echo=FALSE}
 knitr::include_graphics(screenshots[48]) 
